@@ -15,14 +15,14 @@
 # ------------------------------------------------------------------------------
 # These identify your ontology and its location in version control
 
-id: placeholder_id
-title: "Placeholder Title"
+id: mapro
+title: "Steel-based Product Life Cycle Ontology"
 github_org: materialdigital
-repo: placeholder_repo
+repo: materialdigital/mapro-application-ontology
 git_main_branch: main
 license: "CC-BY-4.0"
 description: >
-  PMD Core application ontology generated via ODK Template.
+  PMD Core application application ontology for steel-based product life cycles generated via ODK Template.
 
 # ------------------------------------------------------------------------------
 # ONTOLOGY FILE CONFIGURATION
@@ -35,7 +35,7 @@ edit_format: owl
 # edit_ontology_file: Path to your main ontology development file
 # This is where you make changes to your ontology
 # Will be updated to: src/ontology/<your_id>-edit.owl
-edit_ontology_file: "src/ontology/placeholder_id-edit.owl"
+edit_ontology_file: "src/ontology/mapro-edit.owl"
 
 # ------------------------------------------------------------------------------
 # URI STRUCTURE (PMD CORE STANDARD)
@@ -55,11 +55,11 @@ uribase: "https://w3id.org/pmd/co"
 
 # uribase_suffix: Your ontology ID (gets appended to uribase)
 # Combined result: https://w3id.org/pmd/co/<uribase_suffix>/
-uribase_suffix: "placeholder_id"
+uribase_suffix: "mapro"
 
 # preferredPrefix: Uppercase prefix used in entity IDs and serializations
 # Example: "TRYCE" results in entity IDs like TRYCE_0000001
-preferredPrefix: "PLACEHOLDER"
+preferredPrefix: "MAPRO"
 
 # ------------------------------------------------------------------------------
 # NAMESPACES
@@ -74,7 +74,7 @@ preferredPrefix: "PLACEHOLDER"
 # https://w3id.org/pmd/co/tryce/TRYCE_0000001
 
 namespaces:
-  - "https://w3id.org/pmd/co/placeholder_id/"
+  - "https://w3id.org/pmd/co/mapro/"
 
 # ------------------------------------------------------------------------------
 # TEMPLATES (DISABLED)
